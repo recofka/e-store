@@ -1,11 +1,7 @@
+import CategoriesList from './CategoriesList/CategoriesList';
+
 const App = () => {
-  return (
-    <div className=''>
-      <div className=''>
-        <div className=''>oo </div>
-      </div>
-    </div>
-  );
+  return <CategoriesList></CategoriesList>;
 };
 
 export default App;
