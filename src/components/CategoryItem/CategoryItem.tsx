@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { DirectoryCategory } from '../CategoriesList/CategoriesList';
+import { DirectoryCategory } from '../Directory/Directory';
 import './categoryItem.styles.scss';
 
 type DirectoryItemProps = {

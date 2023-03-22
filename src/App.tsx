@@ -1,7 +1,16 @@
-import CategoriesList from './CategoriesList/CategoriesList';
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './routes/home/home.component';
+import Navigation from './routes/home/navigation/navigation';
 
 const App = () => {
-  return <CategoriesList></CategoriesList>;
+  return (
+    <Routes>
+      <Route path='/' element={<Navigation />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
+  );
 };
 
 export default App;
